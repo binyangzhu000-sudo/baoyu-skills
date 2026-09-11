@@ -217,7 +217,7 @@ Each provider has its own quirks (model families, size rules, ref support, limit
 | Replicate (nano-banana, Seedream, Wan) | `references/providers/replicate.md` |
 | Codex CLI (wraps bundled `scripts/codex-imagegen/`; Codex login, no `OPENAI_API_KEY`) | `references/providers/codex-cli.md` |
 | Atlas Cloud (Nano Banana 2 text-to-image and edit) | `references/providers/atlascloud.md` |
-| Agnes (agnes-image-2.1-flash, reference-image support) | `references/providers/agnes.md` |
+| Agnes (agnes-image-2.5-flash, reference-image support) | `references/providers/agnes.md` |
 
 ## Provider Selection
 
@@ -294,7 +294,7 @@ If `--provider openai --model gpt-image-2.5-flare` fails because `OPENAI_API_KEY
 | `references/providers/openrouter.md` | OpenRouter multimodal flow |
 | `references/providers/replicate.md` | Replicate supported families + guardrails |
 | `references/providers/atlascloud.md` | Atlas Cloud Nano Banana 2 model IDs, refs, and limits |
-| `references/providers/agnes.md` | Agnes (agnes-image-2.1-flash) sizing, refs, and limits |
+| `references/providers/agnes.md` | Agnes (agnes-image-2.5-flash) sizing, refs, and limits |
 | `references/config/preferences-schema.md` | EXTEND.md schema |
 | `references/config/first-time-setup.md` | First-time setup flow |
 

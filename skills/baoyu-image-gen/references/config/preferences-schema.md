@@ -32,7 +32,7 @@ default_model:
   replicate: null           # e.g., "google/nano-banana-2"
   codex-cli: null           # Logical label only — Codex image_gen has no user-selectable model. Default: "codex-image-gen"
   atlascloud: null          # e.g., "google/nano-banana-2/text-to-image" or "google/nano-banana-2/edit"
-  agnes: null               # e.g., "agnes-image-2.1-flash"
+  agnes: null               # e.g., "agnes-image-2.5-flash"
 
 batch:
   max_workers: 10
@@ -129,7 +129,7 @@ default_model:
   minimax: "image-01"
   replicate: "google/nano-banana-2"
   atlascloud: "google/nano-banana-2/text-to-image"
-  agnes: "agnes-image-2.1-flash"
+  agnes: "agnes-image-2.5-flash"
 batch:
   max_workers: 10
   provider_limits:
